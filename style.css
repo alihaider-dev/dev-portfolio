@@ -2,6 +2,8 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
+
+/* Welcome Area CSS */
 .orange-color {
   color: orange;
 }
@@ -38,4 +40,13 @@ section {
 }
 .half-width {
   width: 50%;
+}
+
+/* Dream Area CSS */
+.dream-section {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.dream-section a {
+  text-transform: uppercase;
 }
